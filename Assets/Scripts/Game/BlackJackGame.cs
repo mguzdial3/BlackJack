@@ -13,7 +13,7 @@ public class BlackJackGame {
 	public const int PLAYER_ID = 0;
 
 
-	public BlackJackGame (int numPlayers): this(numPlayers, new Texture[14]){}
+	public BlackJackGame (int numPlayers): this(numPlayers, new Texture[13]){}
 
 	//Constructor 2-When you have imaged
 	public BlackJackGame(int numPlayers, Texture[] textures){
@@ -21,8 +21,8 @@ public class BlackJackGame {
 		Suit[] suits = new Suit[]{Suit.HEARTS, Suit.CLUBS, Suit.DIAMONDS, Suit.SPADES};
 
 		foreach (Suit s in suits) {
-			for (int i = 0; i<14; i++){
-				deck.Add(new Card(i, s, textures[i]));
+			for (int i = 1; i<14; i++){
+				deck.Add(new Card(i, s, textures[i-1]));
 			}
 		}
 		//Shuffle the deck

@@ -20,6 +20,10 @@ public class GameplayManager : MonoBehaviour {
 		game = new BlackJackGame (2);
 		game.Hit (0);
 		game.Hit (1);
+
+		foreach (Card c in game.Deck) {
+			Debug.Log (c.Name);
+		}
 		/**
 		 * Example
 		for (int i = 0; i<5; i++) {
