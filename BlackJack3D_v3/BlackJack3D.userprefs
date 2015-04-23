@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MasterScripts\GameplayManager.cs">
+    <Files>
+      <File FileName="Assets\MasterScripts\GameplayManager.cs" Line="174" Column="37" />
+      <File FileName="Assets\MasterScripts\Game\BlackJackGame.cs" Line="146" Column="1" />
+      <File FileName="Assets\MasterScripts\Game\Card.cs" Line="78" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
